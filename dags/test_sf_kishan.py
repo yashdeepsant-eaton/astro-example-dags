@@ -30,7 +30,7 @@ def use_param_func(hello_world: pd.DataFrame):
     return my_string
 
 default_args={
-    "email":["yashdeepsant@eaton.com"],
+    "email":["yashdeepsant@eaton.com","kishanashra@eaton.com","neerajpandey@eaton.com",],
     "email_on_retry": True,
     "email_on_failure": True,
     "retries": 2,
