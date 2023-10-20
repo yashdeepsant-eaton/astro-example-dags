@@ -14,7 +14,7 @@ import time
 @aql.dataframe(task_id="hello_world")
 def hello_world_func():
     time.sleep(20)
-    raise Exception("Sorry, you have an error")
+   #raise Exception("Sorry, you have an error")
     return "Hello, world!"
 
 @aql.dataframe(task_id="use_param")
